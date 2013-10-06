@@ -1,0 +1,11 @@
+This is what I'm using so far, hopefully I should be able to remove some things from the list or find the 'best' things for the job, sed is just used to tidy the output from tidy for instance.
+
+
+xmlstarlet
+tidy
+wget
+bash
+cron
+sed
+cat
+

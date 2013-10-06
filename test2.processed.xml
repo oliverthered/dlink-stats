@@ -1,0 +1,149 @@
+<table xmlns="http://www.w3.org/1999/xhtml" class="formlisting">
+                <tbody>
+                  <tr>
+                    <td class="form_label_col" colspan="2">
+                    Mode:</td>
+
+                    <td>ADSL2 PLUS</td>
+                  </tr>
+
+                  <tr>
+                    <td class="form_label_col" colspan="2">
+                    Type:</td>
+
+                    <td>ANNEX_A</td>
+                  </tr>
+
+                  <tr>
+                    <td class="form_label_col" colspan="2">
+                    Status:</td>
+
+                    <td>Showtime</td>
+                  </tr>
+
+                  <tr>
+                    <td colspan="3"> </td>
+                  </tr>
+
+                  <tr>
+                    <td class="form_label_col"> </td>
+
+                    <td class="form_label_col">Downstream</td>
+
+                    <td class="form_label_col">Upstream</td>
+                  </tr>
+
+                  <tr>
+                    <td class="form_label_col">Rate (Kbps):</td>
+
+                    <td>13987 kbps</td>
+
+                    <td>1020 kbps</td>
+                  </tr>
+
+                  <tr>
+                    <td colspan="3"> </td>
+                  </tr>
+
+                  <tr>
+                    <td class="form_label_col">SNR Margin
+                    (dB):</td>
+
+                    <td>7.3</td>
+
+                    <td>11.7</td>
+                  </tr>
+
+                  <tr>
+                    <td class="form_label_col">Attenuation
+                    (dB):</td>
+
+                    <td>28.6</td>
+
+                    <td>12.7</td>
+                  </tr>
+
+                  <tr>
+                    <td class="form_label_col">Output Power
+                    (dBm):</td>
+
+                    <td>0.0</td>
+
+                    <td>12.5</td>
+                  </tr>
+
+                  <tr>
+                    <td/>
+                  </tr>
+
+                  <tr>
+                    <td colspan="3"> </td>
+                  </tr>
+
+                  <tr>
+                    <td class="form_label_col">Super Frames:</td>
+
+                    <td>13437825</td>
+
+                    <td>13437825</td>
+                  </tr>
+
+                  <tr>
+                    <td class="form_label_col">RS Correctable
+                    Errors:</td>
+
+                    <td>26615</td>
+
+                    <td>0</td>
+                  </tr>
+
+                  <tr>
+                    <td class="form_label_col">RS Uncorrectable
+                    Errors:</td>
+
+                    <td>3403</td>
+
+                    <td>0</td>
+                  </tr>
+
+                  <tr>
+                    <td colspan="3"> </td>
+                  </tr>
+
+                  <tr>
+                    <td class="form_label_col">HEC Errors:</td>
+
+                    <td>43406</td>
+
+                    <td>0</td>
+                  </tr>
+
+                  <tr>
+                    <td class="form_label_col">Total Cells:</td>
+
+                    <td>5498273</td>
+
+                    <td>3721040</td>
+                  </tr>
+
+                  <tr>
+                    <td class="form_label_col">Data Cells:</td>
+
+                    <td>212659082</td>
+
+                    <td>9281538</td>
+                  </tr>
+
+                  <tr>
+                    <td class="form_label_col">Bit Errors:</td>
+
+                    <td>0</td>
+
+                    <td>0</td>
+                  </tr>
+
+                  <tr>
+                    <td colspan="3"> </td>
+                  </tr>
+                </tbody>
+              </table>

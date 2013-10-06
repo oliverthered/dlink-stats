@@ -1,0 +1,194 @@
+<html><head>
+<meta http-equiv=Content-Type content="text/html"; charset="iso-8859-1">
+<meta http-equiv=Pragma content=no-cache>
+<meta http-equiv=refresh content=60>
+<LINK href="stylemain.css" type=text/css rel=stylesheet>
+<SCRIPT language=javascript src="portName.js"></SCRIPT>
+<SCRIPT language=javascript>
+<!-- hide
+function frmLoad() {
+var updateIfc = '';
+var update = '';
+var errMsg = '&nbsp';
+if ( errMsg != '&nbsp' )
+eval('location="statsifcwanerr.html"');
+}
+function resetClick() {
+var loc = 'statsifcwanreset.html';
+var code = 'location="' + loc + '"';
+eval(code);
+}
+function btnBerTest() {
+var options;
+//aids, 0603016 Ported from brcm302l09{
+var connect='No Defect';
+if(connect == 'Link Down')
+{
+alert('ADSL link is down!');
+}
+else
+{
+options = 'menubar=no,resizable=no,scrollbars=yes,titlebar=yes,toolbar=no,width=400,height=300';
+window.open('berstart.tst?berState=0', 'BCM963xxBerTest', options);
+}
+}
+function fillLan()
+{
+var numEnet = '1';
+var brdId = 'D-4P-W';
+var dispName = ' ';
+if ( numEnet == '2' ) {
+dispName = getUNameByLName(brdId + '|eth1');
+document.writeln("               <tr>");
+document.writeln("                  <td class='form_label_col'>Ethernet " + dispName + "</td>");
+document.writeln("                  <td>0</td>");
+document.writeln("                  <td>0</td>");
+document.writeln("                  <td>0</td>");
+document.writeln("                  <td>0</td>");
+document.writeln("                  <td>0</td>");
+document.writeln("                  <td>0</td>");
+document.writeln("                  <td>0</td>");
+document.writeln("                  <td>0</td>");
+document.writeln("               </tr>");
+dispName = getUNameByLName(brdId + '|eth0');
+document.writeln("               <tr>");
+document.writeln("                  <td class='form_label_col'>Ethernet " + dispName + "</td>");
+document.writeln("                  <td>1742296367</td>");
+document.writeln("                  <td>1363985</td>");
+document.writeln("                  <td>0</td>");
+document.writeln("                  <td>0</td>");
+document.writeln("                  <td>433626503</td>");
+document.writeln("                  <td>1036957</td>");
+document.writeln("                  <td>0</td>");
+document.writeln("                  <td>0</td>");
+document.writeln("              </tr>");
+}
+else {
+document.writeln("               <tr>");
+document.writeln("                  <td class='form_label_col'>Ethernet</td>");
+document.writeln("                  <td>1742296367</td>");
+document.writeln("                  <td>1363985</td>");
+document.writeln("                  <td>0</td>");
+document.writeln("                  <td>0</td>");
+document.writeln("                  <td>433626503</td>");
+document.writeln("                  <td>1036957</td>");
+document.writeln("                  <td>0</td>");
+document.writeln("                  <td>0</td>");
+document.writeln("               </tr>");
+}
+var enblUsb = '0';
+if ( enblUsb == '1' ) {
+document.writeln("               <tr>");
+document.writeln("                  <td class='form_label_col'>USB</td>");
+document.writeln("                  <td>0</td>");
+document.writeln("                  <td>0</td>");
+document.writeln("                  <td>0</td>");
+document.writeln("                  <td>0</td>");
+document.writeln("                  <td>0</td>");
+document.writeln("                  <td>0</td>");
+document.writeln("                  <td>0</td>");
+document.writeln("                  <td>0</td>");
+document.writeln("               </tr>");
+}
+var ifc = '1';
+if ( ifc == '1' ) {
+document.writeln("  <tr>");
+document.writeln("    <td class='form_label_col'>Wireless</td>");
+document.writeln("    <td>0</td>");
+document.writeln("    <td>0</td>");
+document.writeln("    <td>0</td>");
+document.writeln("    <td>0</td>");
+document.writeln("    <td>0</td>");
+document.writeln("    <td>0</td>");
+document.writeln("    <td>0</td>");
+document.writeln("    <td>0</td>");
+document.writeln("  </tr>");
+}
+}
+// done hiding -->
+</SCRIPT>
+<SCRIPT language=JavaScript src="menu.html"></SCRIPT>
+<meta content="MSHTML 6.00.2900.2180" name=GENERATOR></head><body onload=frmLoad()>
+<blockquote><SCRIPT language=JavaScript>
+TabHeader="Status";
+SideItem="Statistics";
+HelpItem="statistic";
+</SCRIPT>
+<SCRIPT type=text/javascript>
+mainTableStart();
+logo();
+TopNav();
+ThirdRowStart();
+Write_Item_Images();
+mainBodyStart();
+</SCRIPT>
+<FORM METHOD="POST" ACTION="/Forms/statsifcwan_1" name="sta_sta"><TABLE id=box_header cellspacing=0 border=0>
+<TBODY>
+<tr>
+<TD class=topheader>Statistics </td></tr><tr>
+<TD class=content>
+<p>This information reflects the current status of your
+router.</p></td></tr></TBODY></table><TABLE id=body_header cellspacing=0 border=0>
+<TBODY>
+<tr>
+<TD class=topheader>WAN Statistics </td></tr><tr>
+<TD class=content><br><div class=overflow>
+<TABLE class=formlisting>
+<TBODY>
+<TR class=form_label_row>
+<TD class=form_label_col>Service</td><TD class=form_label_col>VPI/VCI</td><TD class=form_label_col>Protocol</td><!--<td class='form_label_col'>Interface</td>-->
+<TD class=form_label_col colspan=3>Received</td><TD class=form_label_col colspan=3>Transmitted</td></tr><TR align=middle>
+<TD class=form_label_col>&nbsp;</td><TD class=form_label_col>&nbsp;</td><TD class=form_label_col>&nbsp;</td><!--<td class='form_label_col'>&nbsp;</td>-->
+<TD class=form_label_col>Pkts</td><TD class=form_label_col>Errs</td><TD class=form_label_col>Drops</td><TD class=form_label_col>Pkts</td><TD class=form_label_col>Errs</td><TD class=form_label_col>Drops</td></tr><TR align=middle>
+<td>-</td><td>0/38</td><td>PPPoA</td><td>50688778</td><td>0</td><td>0</td><td>21848140</td><td>0</td><td>0</td></tr><TR align=middle>
+<td>-</td><td>0/65</td><td>RFC 1483</td><td>0</td><td>0</td><td>0</td><td>631428</td><td>0</td><td>0</td></tr></TBODY></table><br><br></div></td></tr></TBODY></table><TABLE id=body_header cellspacing=0 border=0>
+<TBODY>
+<tr>
+<TD class=topheader>LAN Statistics </td></tr><tr>
+<TD class=content>
+<br><div class=overflow>
+<TABLE class=formlisting>
+<TBODY>
+<TR class=form_label_row>
+<TD class=form_label_col>Interface</td><TD class=form_label_col colspan=4>
+<center>Received</center></td><TD class=form_label_col colspan=4>
+<center>Transmitted</center></td></tr><tr>
+<TD class=form_label_col>&nbsp;</td><TD class=form_label_col>Bytes</td><TD class=form_label_col>Pkts</td><TD class=form_label_col>Errs</td><TD class=form_label_col>Drops</td><TD class=form_label_col>Bytes</td><TD class=form_label_col>Pkts</td><TD class=form_label_col>Errs</td><TD class=form_label_col>Drops</td></tr><tr>
+<td class='form_label_col'>Ethernet</td><td>974078255</td><td>10925641</td><td>0</td><td>0</td><td>2895794386</td><td>32733467</td><td>0</td><td>0</td></tr><tr>
+<td class='form_label_col'>Wireless</td><td>3912952673</td><td>16369732</td><td>12189232</td><td>12189232</td><td>3458793663</td><td>24253547</td><td>15309</td><td>15309</td></tr></TBODY></table><br><br></div></td></tr></TBODY></table><TABLE id=body_header cellspacing=0 border=0>
+<TBODY>
+<tr>
+<TD class=topheader>ADSL Statistics </td></tr><tr>
+<TD class=content><br><TABLE class=formlisting>
+<TBODY>
+<tr>
+<TD class=form_label_col colspan=2>Mode:</td><td>ADSL2 PLUS</td></tr><tr>
+<TD class=form_label_col colspan=2>Type:</td><td>ANNEX_A</td></tr><tr>
+<TD class=form_label_col colspan=2>Status:</td><td>Showtime </td></tr><tr>
+<td colspan=3>&nbsp;</td></tr><tr>
+<TD class=form_label_col>&nbsp;</td><TD class=form_label_col>Downstream</td><TD class=form_label_col>Upstream</td></tr><tr>
+<TD class=form_label_col>Rate (Kbps):</td><td> 13987 kbps</td><td> 1020 kbps</td></tr><tr>
+<td colspan=3>&nbsp;</td></tr><tr>
+<TD class=form_label_col>SNR Margin (dB):</td><td>8.9 </td><td>11.9</td></tr><tr>
+<TD class=form_label_col>Attenuation (dB):</td><td>28.6 </td><td> 12.7 </td></tr><tr>
+<TD class=form_label_col>Output Power (dBm):</td><td>0.0 
+</td><td> 12.5 
+</td></tr><tr></tr><tr>
+<td colspan=3>&nbsp;</td></tr><tr>
+<TD class=form_label_col>Super Frames:</td><td>12484926</td><td>12484927</td></tr><tr>
+<TD class=form_label_col>RS Correctable Errors:</td><td>53459</td><td>0</td></tr><tr>
+<TD class=form_label_col>RS Uncorrectable Errors:</td><td>3177</td><td>0</td></tr><tr>
+<td colspan=3>&nbsp;</td></tr><tr>
+<TD class=form_label_col>HEC Errors:</td><td>40887</td><td>0</td></tr><tr>
+<TD class=form_label_col>Total Cells:</td><td>4916991</td><td>3297627</td></tr><tr>
+<TD class=form_label_col>Data Cells:</td><td>189860192</td><td>8399373</td></tr><tr>
+<TD class=form_label_col>Bit Errors:</td><td>0</td><td>0</td></tr><tr>
+<td colspan=3>&nbsp;</td></tr></TBODY></table></td></tr></TBODY></table></form><SCRIPT type=text/javascript>
+mainBodyEnd();
+ThirdRowEnd();
+Footer();
+mainTableEnd();
+</SCRIPT>
+
+</blockquote>
+</body></html>
